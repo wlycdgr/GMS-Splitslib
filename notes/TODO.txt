@@ -1,0 +1,468 @@
+TODO
+
+- DONE implement period randomization logic for entity activation
+- DONE implement speed randomization logic for entity activation
+- DONE implement shrinking-over-time logic for funny fingers
+
+- DONE implement correct layering for enemy and energy objects
+- BASIC DONE implement correct positioning after move for funny fingers
+- DONE implement masking of funny fingers below playfield
+- DONE implement masking of entities and enemies above playfield
+- DONE implement sprite loading and framerate setting from included files and a sprite settings ini file
+- FIRST PASS DONE implement dying-when-you-run-out-of-life logic
+	- DONE warning column that comes down
+	- DONE when funny finger reaches the bottom of the playfield, it's game over
+		- APPROXIMATELY DONE it's at this moment that the warning column reaches the funny finger
+	- DONE when it's game over, game over menu slides across from the side
+- DONE implement collision detection logic for funny fingers v entities:
+	- DONE funny finger switches to grow mode
+	- DONE entity ~disappears
+- DONE simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
+
+- DONE convert game object to state-based logic
+- BASIC DONE implement pause menu
+	- DONE pressing [PAUSE] suspends game
+	- DONE pause screen slides in
+	- DONE pause menu has Continue option
+	- DONE pause menu has Restart option
+	- DONE pause menu has Exit To Title option
+	- DONE menu has slide out animation if user chooses Continue or Restart
+	
+- BASIC DONE implement screen transitions
+	- DONE screen fades to black when user goes to another screen
+	- DONE new screen fades in
+	
+- DONE simplify game_over_menu and pause_menu to generic ribbon_menu
+
+- BASIC DONE implement game over menu
+	- BASIC DONE menu has slide-in animation of menu when game ends
+	- DONE menu has Try Again option that restarts game
+	- DONE menu has Exit To Title option that exits to title screen
+	- DONE menu has slide out animation if user chooses to try again
+	
+- DONE don't do nothing when game is paused or over
+- DONE implement nyu incubator screen
+- DONE title of game in window chrome
+- DONE implement company logo screen
+
+
+Feb 24
+- DONE BUT NEVER MIND - GOING WITH GOOGLE FONTS prepare font template for Marley
+	- DONE (36 seems to be enough!) try out different sizes for Arial to see what is the minimum largest size I need. 96? 64?
+		make it 36!
+		1800x36
+	- DONE create a sample font sprite strip at that size
+	- DONE create a file that has markings where the letters are separated 
+	& shows what letter should go in each slot
+- DONE plug in placeholder Roboto .ttf Google Font while Marls looks for better fits
+- DONE implement title menu
+	- DONE game title sprite
+	- DONE menu:
+		- DONE play
+		- DONE exit
+	- DONE selection highlighting
+	- DONE positioning
+- DONE fix positioning on game over and pause menus
+- DONE implement collision detection logic for funny fingers v enemies:
+	- DONE game over
+- DONE implement SUPER BASIC version of scoring system:
+	- DONE 10 points for each valid move
+- DONE draw score:
+	- DONE score readout in top left
+	- DONE (well, don't need it) score readout on pause menu
+	- BASIC DONE score readout in game over menu
+- DONE tick down score on pause menu, slowly but still
+	
+Feb 27
+- DONE do an initial round of balancing the core mechanics
+	- expose:
+		DONE min/max enemy speed
+		DONE min/max energy speed
+		DONE min/max enemy period
+		DONE min/max energy period
+		DONE move time
+		DONE shrink speed
+		DONE starting life
+		DONE energy value
+		DONE grow time
+	- DONE actually do the round of balancing
+- DONE implement Cashout logic
+	- DONE user's score is uploaded to steam leaderboard on choosing Cashout in Pause menu
+	- DONE after successful upload, go to Leaderboards room
+- BASIC DONE implement leaderboards screen
+	- DONE menu option on title screen
+	- DONE can return to title screen
+	- DONE header: "HIGH SCORES"
+	- DONE tabs: "Overall / Around Player / Friends"
+	- DONE when coming from title screen, show top overall scores
+	- DONE when coming from Cashout, show around-user scores
+	- DONE Q / P to switch between overall / around-user / friends modes
+	- DONE menu with
+		DONE Play
+		DONE Title
+	- DONE standard arrow keys controls for menu	
+
+Feb 28:
+- DONE implement achievement screen
+	- DONE accessible from main menu
+	- DONE header: "ACHIEVEMENTS"
+	- DONE lists achievements
+		- DONE 'locked' version of icon used if achievement is not locked
+		- DONE 'unlocked' version of icon user if achievement is not unlocked
+		- DONE description
+- DONE create leaderboards on Steam:
+	DONE cool
+	DONE easy
+	DONE medium
+	DONE hard
+	DONE difficult
+	DONE one shot
+	
+March 1
+- DONE design the achievements
+- DONE add the achievements to Steam
+	- DONE add the names and descriptions
+	- DONE add placeholder icons
+	- load and display all the placeholders in game
+
+March 2
+
+
+March 4
+- BASIC DONE implement multiple difficulty levels
+	- Cool: 1 avatar, 12 columns
+	- Easy: 2 avatars, 6 columns
+	- Medium: 3 avatars, 7 columns
+	- Hard: 4 avatars, 9 columns
+	- Difficult: 5 avatars, 12 columns
+	- DONE On Main Menu, Play causes a new menu to display instead of going directly to gameplay screen
+	- DONE Making a selection in this menu sets the global game settings and goes to gameplay
+	- DONE Game objects initialize themselves based on global game settings values
+	- DONE The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
+- DONE remove placeholder sprites in main gameplay screen
+- DONE implement sweet spot mechanic
+	- DONE sweet spot counter displays below playfield
+	- DONE it has two ticks near the middle, the area between them is the sweet spot
+	- DONE a lil bigger tick travels back and forth across the counter
+	- DONE need to move while tick is in sweet spot to increase / maintain mutliplier
+	- DONE multiplier maxes out at (? 4 ? )  and stays maxed as long as you continue to hit sweet spot on each pass
+	- DONE the higher the multiplier, the faster the tick moves
+	- DONE failing to move successfully at least once during a sweet spot resets multiplier to 1
+	- DONE illegal move attempt resets multiplier
+	- DONE the score awarded for each successful move is multiplied by the multiplier
+- DONE implement submission to the correct leaderboards, based on current difficulty
+- DONE load user's current high score on game start
+- DONE display that score in score readout
+- DONE do not allow player to activate Cashout dialogue unless current score is better than current high score
+- DONE simplify sweet spot mechanic to:
+	- DONE after a successful move,
+		- DONE multiplier ticks up unless at max
+		- DONE a progress bar resets to full and start draining down
+	- DONE must successfully move again before progress bar runs out to keep combo going
+	- DONE bad move
+		- DONE resets multiplier
+
+
+March 5
+- DONE fix up achievements screen so it displays something like correctly
+
+
+March 6
+- DONE implement leaderboards and filters ribbons in high scores room
+- DONE load and display around-user for highest unlocked difficulty by default
+- DONE implement difficulty level unlocking
+	- DONE initially only Cool and Easy are unlocked
+	- DONE Medium unlocks at [5k | score threshold] on Easy, pops The Dabbler
+	- DONE Hard unlocks at [10k | score threshold] on Medium, pops The Qualifier
+	- DONE Difficult unlocks at [20k | score threshold] on Hard, pops The Up And Comer
+	- DONE [30k | score threshold] on Difficult pops Fignermukcre
+	- DONE locked modes show up as question marks on difficulty menu
+	- DONE selecting them does nothing
+- SORTA DONE display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
+- DONE  implement / try fingers having "armor" on the sides and/or top that lets them absorb one red hit from that side
+per game
+- DONE integrate menu item, header, ribbon header sprites
+
+
+March 7
+- DONE implement support for Steam screenshots 
+(through steam_is_screenshot_requested and steam_send_screenshot)
+- DONE simplify armor to just one piece that is destroyed when an enemy touches a funny finger anywhere
+- DONE trying to move before a move is completed resets the multiplier
+- DONE keep track of last column that we put an enemy/energy into, 
+	roll again one time if we get same column
+- DONE change cash out flow
+	- DONE Display score in the middle of the sliding ribbon menu, like so:
+		Score: [score, ticking down] / [high score] : Current High Score
+	- DONE Cashout submits new high score
+	- DONE Space during gameplay brings up Cashout? menu
+	- DONE Score ticks down while on this menu
+	- DONE Menu with the following options:
+		Cashout!
+		Continue
+		Exit To Title
+	- DONE 'Continue' just continues the game
+	- DONE 'Exit To Title' does just that
+	- DONE Cashout!...
+		- DONE ends current game
+		- DONE slides Cashout? menu away
+		- DONE slides in High Scores ribbon
+- DONE implement and test Steam achievement unlocking: Triple Up
+- DONE implement & test Steam achievement unlocking: No Pressure
+	to test, check for reaching 20x on Easy
+- DONE implement & test Steam achievement unlocking: The Score Is Right
+	to check, check for taking over by 10 or less
+- DONE implement & test Steam achievement unlocking: A Longest Word
+	test on Difficult, but without enemies / death
+
+MARCH 9
+- DONE update TODO
+- remove Cashout mechanic (save it for Turn Motherfucker Turn)
+	- DONE Cashout menu -> Pause menu
+		- DONE "Cashout!" option - > "Try Again"
+		- DONE "Continue" stays same
+		- DONE "Main Menu" stays same
+	- DONE remove High Scores sliding ribbon
+- DONE remove Triple Up achievement 
+		- DONE remove mentions
+		- DONE remove unlocking logic and 
+		- DONE remove from Steam dashboard
+- DONE remove Achievements screen - they are on Steam!
+	- DONE remove room
+	- DONE remove controller
+	- DONE remove sprites resources
+	- DONE remove sprite loading logic
+	- DONE remove menu item in main menu
+	- DONE remove act-on-menu-item-selection logic
+- DONE remove TTF font
+	- DONE remove TTF font resource & license
+	- DONE remove TTF font loading logic from obj_Sprite_Loader
+	- DONE remove all references to TTF fonts in any code
+- DONE remove High Scores screen
+	- DONE remove High Scores room
+	- DONE remove High Scores controller
+	- DONE remove High Scores menu item in Main Menu
+	- DONE remove act-on-menu-item-selection logic
+	- DONE remove high scores header sprite resource
+	- DONE remove high scores header sprite loading logic
+- DONE removed extraneous entries from act on menu selection script
+- DONE implement semantic menu navigation and selection input handling logic, 
+	with support for WASD and JIKL as well as arrow keys, and Space and Enter for selection
+- DONE modify leaderboards on Steam side:
+	- DONE edit Cool leaderboard to be Lifetime Cool Points
+	- DONE edit Easy leaderboard to be Easy Times, in frames, ascending
+	- DONE edit Medium leaderboard to be Medium Times, in frames, ascending
+	- DONE edit Hard leaderboard to be Hard Times, in frames, ascending
+	- DONE edit Difficult leaderboard to be....actually, that doesn't need to change
+- DONE add time tracking logic
+	- DONE just track frames
+	- DONE begin tracking time at game start
+	- DONE display tracking time in score area for Easy / Medium / Hard
+	- DONE continue tracking time while game is paused
+- DONE end game on Easy / Medium / Hard when score cap reached
+- DONE modify score updating process
+	- DONE for Cool, take current leaderboard score, add just-achieved score, and send the sum
+	- DONE for Easy / Medium / Hard
+		- DONE if score below cap, do not send anything
+		- DONE if score hit cap, and frame count is BELOW current leaderboard entry (or there is no leaderboard entry), send new frame count
+	- DONE for Difficult, don't change anything
+		- DONE update if the high score is best
+		- DONE otherwise never mind
+
+
+March 10
+- DONE updated achievements on Steam
+- DONE update achievement logic in code
+- DONE remove TTF-related String script fonts & String object
+
+March 11
+- DONE add frames leaderboards for 1k, 3k, 10k thresholds for Easy, Medium, Hard, Difficult on Steam.
+- DONE add high score leaderboards on Easy, Medium, Hard on Steam
+
+March 12
+- DONE update leaderboard logic in code
+	- DOEN in scoreboard, check to see if we are on Cool or not. If not, then track frames
+	- DONE watch for player reaching one of the 3 score caps
+	- DONE as soon as they do, send a score update request
+	- DONE when they die, send a high score update request
+	- DONE when they restart from pause, update high score
+	- DONE when they return to title from pause, update high score
+- DONE remove Score Is Right achievement
+	- DONE remove unlocking logic from Steam Liason object
+- DONE remove unused Steam scripts
+- DONE remove old leaderboard code
+- DONE remove womp womp readout from Game Over ribbon
+- DONE update high score on Escape-quit
+- DONE implement and balance shrink rate multiplier logic that makes the game not infinite
+- DONE implement splitsfont
+
+March 13
+- DONE modify achievements to be 3k, 10k (unlocks next level), 35k (mastery)
+- DONE remove logo sprite logic & assets
+- DONE remove bottom top and side mask sprite assets & logic
+- DONE remove title sprite logic and assets, replace with splitsfont string
+- DONE remove menu item sprite logic and assets, replace with splitsfont strings
+- DONE implement stroke weight modification
+- DONE remove ribbon menu header sprite logic and asset, replace with splitsfont strings
+- DONE implement splitsfont string width get
+- DONE remove score text drawing logic, replace with splitsfont logic
+- DONE remove multiplier text drawing logic, replace with splitsfont logic
+- DONE implement kern modification
+- DONE remove sprite_settings.ini and logic, since all sprites just have 1 frame
+- DONE remove Best Friend achievement from initial release
+- DONE re-implement No Pressure
+	- add "combo_broken" bool tracker to scoreboard
+	- when we reach 35k, if we are on medium or higher, and if combo_broken is false,
+	unlock No Pressure
+
+March 14
+- DONE suspend game if user has the Steam overlay active. when user deactivates it, activate pause state
+- DONE reset menu index on menu select
+- DONE put "continue" as first option in pause menu
+- DONE remove score string from paused ribbon menu
+- DONE change window title to Q3InventoryReport
+- DONE suspend frame countdown on pause (so people can pause and minimize at work)
+- DONE remove multiplier text drawing logic, replace with splitsfont logic
+- DONE reactivate difficulty menu on main title screen
+- DONE implement basic Level 99 unlocking logic
+
+March 15
+- DONE implement logo screen
+- DONE add raylib & gamemaker logo room
+- DONE import all sprites & get rid of sprite loader object
+
+March 16
+- DONE implement Tween object to handle slide in/out animations
+- DONE implement obj_Splitsfont_Tweaker
+
+March 17
+- DONE tweak title string
+- DONE implement title string animation
+- DONE implement menu item animation
+- DONE tweak menu item splitsfont settings
+- DONE implement menu scrolling animation
+
+March 18-20
+- DONE implement Credits screen
+
+March 21
+DONE tweak splitsfont and positions for menu ribbon header and menu
+
+March 22
+DONE move FPS display to bottom right
+DONE move score and frames drawing to root Scoreboard object
+DONE make it so that inactive energy objects aren't visible in the top left corner
+DONE find a brilliantly minimalist visual solution for the main gameplay screen
+DONE add a randomized attract animation to title text
+
+March 23
+DONE implemented column energy mechanice
+DONE add basic bar to high score display
+DONE remove frames mechanic - can always put it back in later!!
+	- DONE remove frames tracking
+	- DONE remove frames display
+	- DONE remove frames Steam code
+	- DONE remove frames stats from Steam
+	- DONE remove frames leaderboards from Steam
+DONE delete macros for leaderboard names that no longer exist
+
+March 24
+- DONE finalize high score display:
+	- DONE display score number in top left
+	- DONE every time new points are scored, bump the rotate speed up to a cap
+	- DONE nerf the rotate speed every frame, down towards 0
+	- DONE as score approaches high score, make it bigger
+	- DONE on score becoming high score, POP it bolder
+	- DONE if high score, display "NEW HIGH SCORE" below it
+	- DONE if not high score, display a randomized "too bad" message
+	- DONE if on cool, display a randomized "great job" message
+	- DONE display "Check the leaderboards in the Steam client to see how you stack up"
+- DONE pause columns if steam overlay active!
+- DONE pause columns if game paused
+- DONE pause columns is game over!
+- DONE fix the FUNNY FINGERS kerning
+- DONE speed up transition from title screen to gameplay
+
+- DONE simplify the multiplier bar logic, it just always takes X seconds to drain
+- DONE display the bar below the playfield, the width of the playfield
+- DONE on the left below the bar, displays "X[combo value]"
+
+March 25-28
+- DONE show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
+	- DONE keep track of whether we have shown it and only show it one time
+- DONE add CirclMaster quote and Splitsfont tweak it
+- DONE made it so that you can't accidentally miss the message
+- DONE add missing glyphs necessary to fully support CirclMaster quote: 
+	DONE ;
+	DONE .
+	DONE ,
+	DONE "
+	DONE -
+	DONE [
+	DONE ]
+- DONE finalize multiplier display	
+- DONE show when multiplier display is unbroken
+- DONE implement tutorial
+- DONE make a list of necessary sounds
+- DONE implement basic Itch support
+	- DONE local leaderboard saving
+	- DONE local achievement saving
+- DONE write and put up Itch store page copy
+- DONE make sprite list for Marley
+- DONE tweakplement Itch achievement popup icon appearance and behavior
+
+March 30
+- DONE remove high score option from main menu
+- DONE set version to Steam
+- DONE tweakdebug danger danger movement so it matches up better
+- DONE BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
+
+March 31
+- DONE bump max multiplier whenever you lose a piece of armor
+- DONE implement a points for close shave mechanic
+- DONE verify all achievement implementations
+	- DONE No Pressure
+	- DONE QWEIOP
+	- DONE Level 99
+	- DONE the score achievements
+- DONE set achievements to real values (and tweak those values)
+- DONE align multiplier bar with playfield bottom border
+- DONE put serge and peter front and center in credits
+- DONE fix sometimes wrong item selected due to game input UX bug in ribbon menu
+- DONE fix menu double/wrong highlight bug
+- DONE make screenshots
+- DONE make trailer (dependent on sounds)
+
+
+April 7-8
+- DONE iterate on title screen twitching
+- DONE round of optimization
+- DONE round of refactoring/cleaning code
+
+April 9
+- DONE tweakfix credits tween timings
+- DONE removed Itch ini files
+- DONE removed OGG files & code
+- DONE finish importing & hooking up the WAV sounds
+- DONE make it so there's no multiplier combo bar drawn at all if value is at 0
+
+- add sound on/off
+- mix the WAVs
+- clean up and proofread macros list
+- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
+which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
+
+- see what happens when there is no internet
+- see what happens when there is no steam
+
+- add game start animation
+	- bottom bar slides in from the left
+	- columns fill up from the bottom
+	- funny fingers fill up from the bottom
+- decide how to handle lack of steam connection
+- handle steam failing to upload score
+- ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch
+- round of balancing
+
+- optimiize
+
