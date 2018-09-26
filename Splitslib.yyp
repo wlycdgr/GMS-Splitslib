@@ -146,7 +146,7 @@
             "Key": "167f2cc5-cad7-4c09-ba90-7350cc2b65b5",
             "Value": {
                 "id": "3799495e-94b8-4225-b4f8-0c07ffedc7b3",
-                "resourcePath": "objects\\obj_Logo_Room_Controller\\obj_Logo_Room_Controller.yy",
+                "resourcePath": "objects\\obj_MyLogo_Room_Controller\\obj_MyLogo_Room_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -532,14 +532,6 @@
                 "id": "9add165e-3aa9-4b5d-a0c4-ed51e2174a59",
                 "resourcePath": "objects\\obj_Steam_Liason\\obj_Steam_Liason.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "65eee2e0-5ea5-4bc0-8ce9-9d70773aba38",
-            "Value": {
-                "id": "1560aa36-46bd-4538-81d7-8d51653d9f4a",
-                "resourcePath": "sprites\\spr_logo_nyu\\spr_logo_nyu.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

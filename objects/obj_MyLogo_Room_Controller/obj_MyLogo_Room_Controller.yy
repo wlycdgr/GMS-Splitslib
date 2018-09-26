@@ -2,7 +2,7 @@
     "id": "167f2cc5-cad7-4c09-ba90-7350cc2b65b5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Logo_Room_Controller",
+    "name": "obj_MyLogo_Room_Controller",
     "eventList": [
         {
             "id": "642cc2eb-256e-4e1f-aced-d0e6547eeb44",
