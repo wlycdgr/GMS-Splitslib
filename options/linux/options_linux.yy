@@ -7,7 +7,7 @@
     "option_linux_display_cursor": true,
     "option_linux_display_name": "Made in GameMaker Studio 2",
     "option_linux_display_splash": false,
-    "option_linux_enable_steam": true,
+    "option_linux_enable_steam": false,
     "option_linux_homepage": "http:\/\/www.yoyogames.com",
     "option_linux_icon": "${base_options_dir}\\linux\\icons\\64.png",
     "option_linux_interpolate_pixels": false,
