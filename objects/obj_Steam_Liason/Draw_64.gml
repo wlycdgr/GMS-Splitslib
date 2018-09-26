@@ -5,23 +5,6 @@
 
 //draw_text(5, 5, "CTRL + X + V to toggle debug visibility");
 
-//draw_text(5, 35, "Score based achievement values have been reduced to 50, 250, and 500");
-//draw_text(5, 50, "for Challenger/Qualifier/Lucky Loser (Easy),");
-//draw_text(5, 65, "for Wildcard/Up And Comer/Breakout Performer (Medium),");
-//draw_text(5, 80, "for Pro/Contender/Champion (Hard)");
-//draw_text(5, 95, "and for Hall Of Famer/Living Legend/Fignermukcre (Difficult");
-//draw_text(5, 110, "to facilitate unlock logic verification.");
-//draw_text(5, 125, "For each difficulty, the middle achievement should unlock next difficulty.");
-//draw_text(5, 140, "Level 99 total lifetime Cool points target reduced to 1000 for testing");
-//draw_text(5, 155, "No Pressure point target reduced to 750 for testing.")
-
-//draw_text(5, 260, "STATS (Ctrl + T + R to reset)");
-//draw_text(5, 275, "stat_lifetime_cool_points: " + string(stat_lifetime_cool_points));
-//draw_text(5, 290, "stat_easy_high_score: " + string(stat_easy_high_score));
-//draw_text(5, 305, "stat_medium_high_score: " + string(stat_medium_high_score));
-//draw_text(5, 320, "stat_hard_high_score: " + string(stat_hard_high_score));
-//draw_text(5, 335, "stat_difficult_high_score: " + string(stat_difficult_high_score));
-
 //draw_text(5, 365, "ACHIEVEMENTS (Ctrl + X + # to toggle)");
 
 //if (ach_unlock_states_retrieved) {
