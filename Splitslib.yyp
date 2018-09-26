@@ -535,14 +535,6 @@
             }
         },
         {
-            "Key": "65ea4094-1f86-4fe9-bf04-cf3ed571b17a",
-            "Value": {
-                "id": "9add165e-3aa9-4b5d-a0c4-ed51e2174a59",
-                "resourcePath": "objects\\obj_Steam_Liason\\obj_Steam_Liason.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "65eee2e0-5ea5-4bc0-8ce9-9d70773aba38",
             "Value": {
                 "id": "1560aa36-46bd-4538-81d7-8d51653d9f4a",
