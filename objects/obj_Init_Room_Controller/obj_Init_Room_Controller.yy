@@ -2,7 +2,7 @@
     "id": "1cc4d639-3ee8-4c7a-b5ea-352750b1aab5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_NYU_Incubator_Logo_Room_Controller",
+    "name": "obj_Init_Room_Controller",
     "eventList": [
         {
             "id": "4b447949-bad4-4dc6-8570-d061050bf676",
