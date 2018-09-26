@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
-            "Value": {
-                "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
-                "resourcePath": "objects\\obj_Column\\obj_Column.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "150adbdd-4555-4d73-8785-ba644bc4e234",
             "Value": {
                 "id": "37b48ebe-9145-4dca-870f-b3316a2b5928",
@@ -612,14 +604,6 @@
                 "id": "9ff98ac0-5443-4b13-9751-b8b6bcc7d67b",
                 "resourcePath": "scripts\\scr_Steam_IsAchievementUnlocked\\scr_Steam_IsAchievementUnlocked.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7a7975d4-f638-4ab3-a232-13d180e3d87a",
-            "Value": {
-                "id": "e754b572-00b6-42ac-8f50-9506074c2426",
-                "resourcePath": "objects\\obj_Playfield\\obj_Playfield.yy",
-                "resourceType": "GMObject"
             }
         },
         {
