@@ -1,9 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-target_size = funny_size + random_range(0.2, 0.6);
+/// @description Begin twitch	
+target_size = t_size + random_range(twitch_minScaleUp, twitch_maxScaleUp);
 
-twitch_up_per_frame = (target_size - funny_size) * random_range(0.06, 0.2);
-twitch_down_per_frame = twitch_up_per_frame * 2;
+twitch_up_per_frame = (target_size - title1_size) * random_range(twitch_minPropTwitchPerFrame, twitch_maxPropTwitchPerFrame);
+twitch_down_per_frame = twitch_up_per_frame * twitch_twitchDownPerFrameMult;
 
 twitching_up = true;
 twitching_down = false;
