@@ -1,2 +1,2 @@
 /// @description Init
-alarm_set(0, game_fps);
+alarm_set(0, game_fps / 4 );
