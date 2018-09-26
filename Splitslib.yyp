@@ -170,7 +170,7 @@
             "Key": "1cc4d639-3ee8-4c7a-b5ea-352750b1aab5",
             "Value": {
                 "id": "b962cfb7-1bef-433c-ab48-a226a496eb3a",
-                "resourcePath": "objects\\obj_Init_Room_Controller\\obj_Init_Room_Controller.yy",
+                "resourcePath": "objects\\obj_InitRoom_Room_Controller\\obj_InitRoom_Room_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1034,7 +1034,7 @@
             "Key": "e23a7fd3-0b94-4cc0-b500-0a5e16221018",
             "Value": {
                 "id": "ec76b28c-1472-4f50-bcae-de59f248cd31",
-                "resourcePath": "rooms\\r_Logo\\r_Logo.yy",
+                "resourcePath": "rooms\\r_MyLogo\\r_MyLogo.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1042,7 +1042,7 @@
             "Key": "e44767aa-adf5-4ed6-a89d-30a8186be7d3",
             "Value": {
                 "id": "2afbbda6-1994-4b7b-8ea9-38176357e3ff",
-                "resourcePath": "rooms\\r_NYUIncubatorLogo\\r_NYUIncubatorLogo.yy",
+                "resourcePath": "rooms\\r_InitRoom\\r_InitRoom.yy",
                 "resourceType": "GMRoom"
             }
         },

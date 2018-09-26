@@ -1,6 +1,6 @@
 
 {
-    "name": "r_NYUIncubatorLogo",
+    "name": "r_InitRoom",
     "id": "e44767aa-adf5-4ed6-a89d-30a8186be7d3",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

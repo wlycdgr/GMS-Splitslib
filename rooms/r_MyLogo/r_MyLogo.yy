@@ -1,6 +1,6 @@
 
 {
-    "name": "r_Logo",
+    "name": "r_MyLogo",
     "id": "e23a7fd3-0b94-4cc0-b500-0a5e16221018",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
