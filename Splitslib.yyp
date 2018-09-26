@@ -575,14 +575,6 @@
             }
         },
         {
-            "Key": "697385a1-fb08-4c34-aed3-39c9b4140278",
-            "Value": {
-                "id": "329994b5-1f5b-4918-80a2-ffc7d9467adf",
-                "resourcePath": "sprites\\spr_logo_raylib\\spr_logo_raylib.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6b19ebdd-109f-40bb-8649-6c0e6ff97150",
             "Value": {
                 "id": "67b26092-b819-4f9f-8bab-0a629ad73625",
