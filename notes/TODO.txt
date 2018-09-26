@@ -1,0 +1,36 @@
+WHAT MUST BE UPDATED / REMOVED TO MAKE THIS TEMPLATE GENERIC
+
+OBJECTS
+	Gameplay/
+		DONE, REMOVED obj_Funny_Finger
+		obj_Game
+		obj_Input_Tracker
+		DONE, REMOVED obj_Danger_Danger
+		DONE, REMOVED obj_Multiplier_Bar
+		
+		EntityGenerators/
+			obj_Entity_Generator
+			obj_Energy_Generator
+			obj_Enemy_Generator
+		
+		Entities/
+			obj_Energy
+			obj_Entity
+			obj_Enemy
+			DONE, REMOVED obj_CloseShave
+			
+		Sliding_Ribbons/
+			obj_Game_Over_Menu_Sliding_Ribbon
+			obj_Sliding_Ribbon
+			obj_Paused_Sliding_Ribbon
+			DONE, REMOVED obj_Level99_Unlock_Message_Sliding_Ribbon
+			
+		Scoreboards/
+			DONE, REMOVED obj_Scoreboard_Cool
+			obj_Scoreboard_ROOT
+			DONE, REMOVED obj_Scoreboard_Easy
+			DONE, REMOVED obj_Scoreboard_Medium
+			DONE, REMOVED obj_Scoreboard_Hard
+			DONE, REMOVED obj_Scoreboard_Difficult
+			
+		

@@ -20,4 +20,5 @@ for (var i = 0; i < 10; i++) {
 	scr_Splitsfont_Rotate_String(number_string);
 }
 
+scr_Scoreboard_AnimateScoreDisplay(id);
 

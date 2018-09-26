@@ -47,22 +47,6 @@
             }
         },
         {
-            "Key": "02de570d-6b51-4da4-9c76-9c06c68bd3ce",
-            "Value": {
-                "id": "7d59c377-1fe3-4625-8444-9de859503292",
-                "resourcePath": "objects\\obj_Scoreboard_Easy\\obj_Scoreboard_Easy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "082b7d90-e705-4d08-9b1a-b020a60d298d",
-            "Value": {
-                "id": "3ce17ca0-09f1-444c-891c-186ca3a2c240",
-                "resourcePath": "objects\\obj_Level_99_Unlock_Message_Sliding_Ribbon\\obj_Level_99_Unlock_Message_Sliding_Ribbon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "09760fc0-4fac-4fd2-ba6d-671093bacb27",
             "Value": {
                 "id": "53b48dd1-aef7-4973-9db2-388977cef9ba",
@@ -95,14 +79,6 @@
             }
         },
         {
-            "Key": "0cb8fae4-7cd0-4f0f-a3e3-0f5fc2de1c30",
-            "Value": {
-                "id": "ce234dca-d3e6-425d-8df8-255858e5cba7",
-                "resourcePath": "objects\\obj_Scoreboard_Cool\\obj_Scoreboard_Cool.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0e269cb6-6c82-4349-b237-982518d205f7",
             "Value": {
                 "id": "41fafa2b-865d-40d8-bfbc-eb3a94374124",
@@ -124,14 +100,6 @@
                 "id": "62bdba30-ab2d-4bdc-a5e9-ba4232824284",
                 "resourcePath": "rooms\\r_Credits\\r_Credits.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "150adbdd-4555-4d73-8785-ba644bc4e234",
-            "Value": {
-                "id": "37b48ebe-9145-4dca-870f-b3316a2b5928",
-                "resourcePath": "objects\\obj_Funny_Finger\\obj_Funny_Finger.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -243,14 +211,6 @@
             "Value": {
                 "id": "3d3c66a4-021a-4985-8960-06efac1db850",
                 "resourcePath": "objects\\obj_Entity\\obj_Entity.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "2eac5d6f-41e8-45d1-9ef9-4a724353695a",
-            "Value": {
-                "id": "1a4c3e7a-dca1-4eb7-8ae1-f581153dfdb2",
-                "resourcePath": "objects\\obj_Scoreboard_Hard\\obj_Scoreboard_Hard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -615,14 +575,6 @@
             }
         },
         {
-            "Key": "7f67a269-252c-499f-b5c0-e3d086dd2ae6",
-            "Value": {
-                "id": "5fcb72e9-d044-4233-9fc1-9693a5cda0e9",
-                "resourcePath": "objects\\obj_Scoreboard_Medium\\obj_Scoreboard_Medium.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7f853e00-a34b-4b8a-96b3-a723c0b3d713",
             "Value": {
                 "id": "45552957-3965-411e-b787-dbf2911ccc42",
@@ -815,14 +767,6 @@
             }
         },
         {
-            "Key": "b0fb87c2-1875-4ecf-a56c-14a340d3ad32",
-            "Value": {
-                "id": "d5798562-af94-444e-8102-faec59d491ea",
-                "resourcePath": "objects\\obj_CloseShave\\obj_CloseShave.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b29c19b6-ef21-4d43-ae4e-19588f7ac1fd",
             "Value": {
                 "id": "8eb5e698-f4ce-415b-81e8-b22cee28b1fb",
@@ -895,6 +839,14 @@
             }
         },
         {
+            "Key": "bf1d4363-5c95-4de3-ae87-a45ed9395f73",
+            "Value": {
+                "id": "ed944a92-8b30-4d3f-acb8-4486d084f93d",
+                "resourcePath": "notes\\TODO.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "c51897f5-6bc6-4561-acad-2aff6a162c8a",
             "Value": {
                 "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
@@ -964,14 +916,6 @@
                 "id": "e042f96d-a18f-4cc2-b098-79ff6e59192f",
                 "resourcePath": "views\\d40fa8c9-c2bb-4ee7-812e-c02d00e1de37.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4",
-            "Value": {
-                "id": "0359273e-b3d2-447f-a588-e638505d0d3b",
-                "resourcePath": "objects\\obj_Multiplier_Bar\\obj_Multiplier_Bar.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1063,14 +1007,6 @@
             }
         },
         {
-            "Key": "e9a3bacc-dda0-4e2a-b7f3-b2ccf4e5cf5c",
-            "Value": {
-                "id": "1b41c183-2f63-45f3-8dec-a9c497622788",
-                "resourcePath": "objects\\obj_Danger_Danger\\obj_Danger_Danger.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ed4f23f4-f586-487f-bc63-aebb0f132857",
             "Value": {
                 "id": "17427d63-a78a-4499-b9e2-46a8fa79c089",
@@ -1108,14 +1044,6 @@
                 "id": "8bf2182a-fca0-402f-b20c-987df8ed5b64",
                 "resourcePath": "views\\f53dad25-1814-4de6-b9f6-8f055424f59b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f5c83b03-3241-48fb-9990-957372b55447",
-            "Value": {
-                "id": "7a88676e-02f3-4435-93d3-48738bc8e1f0",
-                "resourcePath": "objects\\obj_Scoreboard_Difficult\\obj_Scoreboard_Difficult.yy",
-                "resourceType": "GMObject"
             }
         },
         {
