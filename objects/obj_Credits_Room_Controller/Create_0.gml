@@ -8,12 +8,16 @@ pause_counter_value = 0;
 pause_counter_limit = 60;
 
 // FIRST SCREEN STUFF
-screen_texts[0, 0] = "FUNNY FINGERS";
-screen_texts[0, 1] = "A SIMPLE GAME";
-screen_texts[0, 2] = "FOR 2 TO 10 FINGERS";
+screen_texts[0, 0] = "FUNNY FINGERS"; // REPLACE AS NEEDED
+screen_texts[0, 1] = "A SIMPLE GAME"; // REPLACE AS NEEDED
+screen_texts[0, 2] = "FOR 2 TO 10 FINGERS"; // REPLACE AS NEEDED
+
+
+// LEAVE EVERYTHING ELSE AS IS!
+
 screen_texts[0, 3] = "DESIGN AND CODE BY";
 screen_texts[0, 4] = "WLY_CDGR";
-screen_texts[0, 5] = "SPRITES AND SOUNDS BY";
+screen_texts[0, 5] = "SPRITES AND OR SOUNDS BY";
 screen_texts[0, 6] = "MARLEY HALL";
 
 screen_tweaks[0, 0] = [0.12, 0.021, 0.025, 90, 0]; // FUNNY FINGERS

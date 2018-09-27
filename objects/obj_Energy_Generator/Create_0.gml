@@ -1,8 +1,8 @@
 /// @description Init
 event_inherited();
 
-minimum_period_in_sec = global.game_settings.energy_minimum_period_in_sec;
-maximum_period_in_sec = global.game_settings.energy_maximum_period_in_sec;
+minimum_period_in_sec = 1.0; // EXAMPLE
+maximum_period_in_sec = 3.0; // EXAMPLE, use own value
 
 event_user(0);
 

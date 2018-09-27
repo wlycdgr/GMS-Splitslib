@@ -65,7 +65,9 @@ title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, title2, slide_ri
 
 // MAIN MENU
 main_menu_labels[0] = "PLAY"
-main_menu_labels[2] = "EXIT";
+main_menu_labels[1] = "TUTORIAL";
+main_menu_labels[2] = "CREDITS";
+main_menu_labels[3] = "EXIT";
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 0.8 * window_height,

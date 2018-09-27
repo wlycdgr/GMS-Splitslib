@@ -1,22 +1,15 @@
 /// @description Draw the credits
 
 switch(screen_index) {
-case 0: // QWEIOP screen
+case 0: // INSTRUCTIONS screen
 	scr_Splitsfont_Draw_String(
-		use_string,
-		use_string_x_path.value, use_string_y
+		instructions1_string,
+		instructions1_string_x_path.value, instructions1_string_y
 	);
-	
-	for (var i = 0; i < qweiop_length; i++) {
-		scr_Splitsfont_Draw_String(
-			qweiop_strings[i],
-			qweiop_string_x_positions[i], qweiop_strings_y
-		);
-	}
-	
+
 	scr_Splitsfont_Draw_String(
-		to_move_string,
-		to_move_string_x_path.value, to_move_string_y
+		instructions2_string,
+		instructions2_string_x_path.value, instructions2_string_y
 	);
 	
 	break;

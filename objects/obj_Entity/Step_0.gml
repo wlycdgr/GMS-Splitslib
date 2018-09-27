@@ -5,9 +5,5 @@ if (global.steam_overlay_activated) exit;
 if (gs_playing != global.game.state) exit;
 
 if (is_active) { 
-	y += vertical_speed;
-	
-	if (y >= playfield_bottom_y){
-		event_user(1);
-	}
+	// add game-specific logic here
 }

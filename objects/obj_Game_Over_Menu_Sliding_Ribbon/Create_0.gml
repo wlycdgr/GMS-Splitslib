@@ -33,30 +33,7 @@ too_bad_string_y = 0.5 * window_height;
 too_bad_string_x_offset=  0;
 too_bad_string_x = 0;
 
-great_job_texts = [
-	"TERRIFIC JOB",
-	"KEEP IT UP",
-	"YOU ARE DOING GREAT",
-	"YOU ARE A FANTASTIC HUMAN BEING",
-	"SIMPLY AMAZING",
-	"YOUR PERFORMANCE WAS INCREDIBLE",
-	"EXCEPTIONAL MASTERY COMES NATURALLY TO YOU",
-	"STUNNING EFFORT",
-	"THREE WORDS: W O W"
-];
-great_job_strings_count = array_length_1d(great_job_texts);
-great_job_string = 0;
-for (var i = 0; i < great_job_strings_count; i++) {
-	great_job_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);	
-	scr_Splitsfont_Set_Text(great_job_string, great_job_texts[i]);
-	great_job_strings[i] = great_job_string;
-	great_job_string_x_offsets[i] =
-		sliding_ribbon_x_center -
-		(scr_Splitsfont_Get_Width(great_job_string) / 2);
-}
-great_job_string_y = 0.5 * window_height;
-great_job_string_x_offset=  0;
-great_job_string_x = 0;
+
 
 // for both great job and too bad strings
 scr_Splitsfont_Reset_DefaultTweaks();
@@ -72,19 +49,6 @@ new_high_score_string_x_offset =
 	(sliding_ribbon_width / 2) -
 	(scr_Splitsfont_Get_Width(new_high_score_string) / 2);
 new_high_score_string_x = x + new_high_score_string_x_offset;
-
-
-check_steam_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(
-	check_steam_string,
-	"CHECK THE LEADERBOARDS IN THE STEAM CLIENT TO SEE HOW YOU STACK UP"
-);
-scr_Splitsfont_Set_Tweaks(check_steam_string, [0.015, 0.001, 0.008, 0, 0]);
-check_steam_string_y = 0.97 * window_height;
-check_steam_string_x_offset =
-	(sliding_ribbon_width / 2) - 
-	(scr_Splitsfont_Get_Width(check_steam_string) / 2);
-check_steam_string_x = x + check_steam_string_x_offset;
 
 var menu_y_pos = 
 	y + sliding_ribbon_height -

@@ -4,13 +4,6 @@ if (srs_inactive == state) exit;
 event_inherited();
 
 switch(ribbon_state) {
-case gors_cool:
-	scr_Splitsfont_Draw_String(
-		great_job_string,
-		great_job_string_x, great_job_string_y
-	);
-	break;
-	
 case gors_new_high_score:
 	scr_Splitsfont_Draw_String(
 		new_high_score_string,
@@ -29,9 +22,3 @@ case gors_too_bad:
 default:
 	break;
 }
-
-
-scr_Splitsfont_Draw_String(
-	check_steam_string,
-	check_steam_string_x, check_steam_string_y
-);

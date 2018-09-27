@@ -311,14 +311,6 @@
             }
         },
         {
-            "Key": "3eee0067-d7db-49e5-bc50-c32ede4fd466",
-            "Value": {
-                "id": "5f13f935-649a-41fc-be12-3ebb38cc9463",
-                "resourcePath": "views\\3eee0067-d7db-49e5-bc50-c32ede4fd466.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "3fd85874-5a2e-4539-aab1-3375e74f2764",
             "Value": {
                 "id": "8806b466-d5a7-4344-a02d-5df9adb82b4c",
@@ -791,14 +783,6 @@
             }
         },
         {
-            "Key": "b45fdfe2-6862-4ba1-be3a-bff263610936",
-            "Value": {
-                "id": "e330627b-8dc7-4efc-adfc-c8350a8c9c6f",
-                "resourcePath": "scripts\\scr_Scoreboard_AnimateScoreDisplay\\scr_Scoreboard_AnimateScoreDisplay.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b51e727b-5c33-4fcd-aaf2-5b4b653315a3",
             "Value": {
                 "id": "2877cf5d-36ae-43bf-a2ff-5a9605013e56",
@@ -1101,7 +1085,6 @@
         "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6",
         "5013329f-d97f-4507-8121-a9d3d661f65d",
         "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
-        "b45fdfe2-6862-4ba1-be3a-bff263610936",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",

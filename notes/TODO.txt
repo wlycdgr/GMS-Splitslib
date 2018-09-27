@@ -13,47 +13,44 @@ OBJECTS
 		Steam/
 			DONE obj_Steam_Liason
 		Splitsfont/
-			obj_Splitsfont
+			DONE obj_Splitsfont
 			
 	Controllers/
 		DONE obj_GameMaker_And_Raylib_Logos_Room_Controller
 		DONE obj_MyLogo_Room_Controller
-		obj_Main_Menu_Room_Controller
-		obj_Credits_Room_Controller
-		obj_Tutorial_Room_Controller
-		obj_Gameplay_Room_Controller
+		DONE obj_Main_Menu_Room_Controller
+		DONE obj_Credits_Room_Controller
+		DONE obj_Tutorial_Room_Controller
+		DONE obj_Gameplay_Room_Controller
 		
 	UI/
-		obj_Menu
-		obj_Scoreboard
+		DONE obj_Menu
+		DONE obj_Scoreboard
 		Sliding_Ribbons/
-			obj_Game_Over_Menu_Sliding_Ribbon
-			obj_Sliding_Ribbon
-			obj_Paused_Sliding_Ribbon
+			DONE obj_Game_Over_Menu_Sliding_Ribbon
+			DONE obj_Sliding_Ribbon
+			DONE obj_Paused_Sliding_Ribbon
 			
 	Animation/
-		obj_SlidePath
-		obj_SlideTween
+		DONE obj_SlidePath
+		DONE obj_SlideTween
 			
 	Input/
-		obj_Input_Tracker
+		DONE obj_Input_Tracker
 		
 	EntityGenerators/
-		obj_Entity_Generator
-		obj_Energy_Generator
-		obj_Enemy_Generator
+		DONE obj_Entity_Generator
+		DONE obj_Energy_Generator
+		DONE obj_Enemy_Generator
 		
 	Entities/
-		obj_Energy
-		obj_Entity
-		obj_Enemy 
+		DONE obj_Energy
+		DONE obj_Entity
+		DONE obj_Enemy 
 		
 	Splitsfont/
 		obj_Splitsfont_Tweaker
 		obj_Splitsfont_String
-		
-	Input
-		obj_Input_Tracker
 		
 ROOMS
 	DONE r_InitRoom

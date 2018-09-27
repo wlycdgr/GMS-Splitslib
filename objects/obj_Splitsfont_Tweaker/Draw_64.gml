@@ -9,7 +9,7 @@ for (var i = 0; i < sf_strings_count; i++) {
 
 if (!draw_tweak_info) exit;
 
-draw_set_font(arial_8pt);
+draw_set_font(font_debug);
 
 var section_top_y = 0;
 
