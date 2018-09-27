@@ -16,7 +16,6 @@ OBJECTS
 			obj_Splitsfont
 			
 	Controllers/
-		DONE obj_InitRoom_Room_Controller
 		DONE obj_GameMaker_And_Raylib_Logos_Room_Controller
 		DONE obj_MyLogo_Room_Controller
 		obj_Main_Menu_Room_Controller
