@@ -60,9 +60,9 @@ ROOMS
 	DONE r_GameMakerAndRaylibLogos
 	DONE r_MyLogo
 	DONE r_MainMenu
-	r_Gameplay
-	r_Credits
-	r_Tutorial
+	DONE r_Gameplay
+	DONE r_Credits
+	DONE r_Tutorial
 
 
 
