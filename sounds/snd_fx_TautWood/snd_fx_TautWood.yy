@@ -1,8 +1,8 @@
 {
-    "id": "a63c7cdd-fb6f-44c3-9789-4f7c3e57645a",
+    "id": "68f8c326-36b6-4b17-8d36-79fd46745ed4",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_fx_CrashIntoEnemyAndLoseArmor",
+    "name": "snd_fx_TautWood",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

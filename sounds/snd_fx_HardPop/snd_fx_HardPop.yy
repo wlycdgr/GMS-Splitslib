@@ -1,8 +1,8 @@
 {
-    "id": "5eadb47a-69c3-41ec-9bc3-706016f4104b",
+    "id": "a63c7cdd-fb6f-44c3-9789-4f7c3e57645a",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_fx_EatEnergy",
+    "name": "snd_fx_HardPop",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

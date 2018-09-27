@@ -474,7 +474,7 @@
             "Key": "5eadb47a-69c3-41ec-9bc3-706016f4104b",
             "Value": {
                 "id": "4030da01-d76a-47ae-b056-885fd2c5a6de",
-                "resourcePath": "sounds\\snd_fx_EatEnergy\\snd_fx_EatEnergy.yy",
+                "resourcePath": "sounds\\snd_fx_SoftPop\\snd_fx_SoftPop.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -506,7 +506,7 @@
             "Key": "64910be7-7828-45cd-8a72-86a9d95fab83",
             "Value": {
                 "id": "8f6f91d9-ecb3-4131-ab90-e13e888288fd",
-                "resourcePath": "sounds\\snd_fx_LoseMultiplier\\snd_fx_LoseMultiplier.yy",
+                "resourcePath": "sounds\\snd_fx_Poom\\snd_fx_Poom.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -546,7 +546,7 @@
             "Key": "68f8c326-36b6-4b17-8d36-79fd46745ed4",
             "Value": {
                 "id": "f45bb9c1-e43e-4cf2-8081-9bb344af58bd",
-                "resourcePath": "sounds\\snd_fx_MoveAndIncreaseMultiplier\\snd_fx_MoveAndIncreaseMultiplier.yy",
+                "resourcePath": "sounds\\snd_fx_TautWood\\snd_fx_TautWood.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -554,7 +554,7 @@
             "Key": "6b19ebdd-109f-40bb-8649-6c0e6ff97150",
             "Value": {
                 "id": "67b26092-b819-4f9f-8bab-0a629ad73625",
-                "resourcePath": "sounds\\snd_fx_AchieveHighScore\\snd_fx_AchieveHighScore.yy",
+                "resourcePath": "sounds\\snd_fx_TriumphantRill\\snd_fx_TriumphantRill.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -570,7 +570,7 @@
             "Key": "6e04c45c-4715-4fc8-a312-5410b8bf198f",
             "Value": {
                 "id": "47af1182-153f-440f-abd7-0093731077d9",
-                "resourcePath": "sounds\\snd_fx_DIE\\snd_fx_DIE.yy",
+                "resourcePath": "sounds\\snd_fx_HollowVibe\\snd_fx_HollowVibe.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -730,7 +730,7 @@
             "Key": "a63c7cdd-fb6f-44c3-9789-4f7c3e57645a",
             "Value": {
                 "id": "6b2bb7de-2214-47bd-8b67-03e4a3b777fa",
-                "resourcePath": "sounds\\snd_fx_CrashIntoEnemyAndLoseArmor\\snd_fx_CrashIntoEnemyAndLoseArmor.yy",
+                "resourcePath": "sounds\\snd_fx_HardPop\\snd_fx_HardPop.yy",
                 "resourceType": "GMSound"
             }
         },

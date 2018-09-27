@@ -64,7 +64,9 @@ ROOMS
 	DONE r_Credits
 	DONE r_Tutorial
 
-
+SOUNDS
+	snd_fx_AchieveHighScore
+	snd_fx_CrashIntoEne
 
 	
 

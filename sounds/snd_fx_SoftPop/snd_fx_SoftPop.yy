@@ -1,8 +1,8 @@
 {
-    "id": "6e04c45c-4715-4fc8-a312-5410b8bf198f",
+    "id": "5eadb47a-69c3-41ec-9bc3-706016f4104b",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_fx_DIE",
+    "name": "snd_fx_SoftPop",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
