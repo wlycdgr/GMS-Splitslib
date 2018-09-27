@@ -93,20 +93,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "76c23fb4-1145-4ec1-9fd0-5ff195e36b3b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "array_create(playfield_count)",
-            "varName": "playfields",
-            "varType": 4
-        },
-        {
             "id": "02f0742d-ec55-485a-894e-2f9a61bef687",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -119,48 +105,6 @@
             "value": "gs_playing",
             "varName": "state",
             "varType": 1
-        },
-        {
-            "id": "4dd2e4a5-c173-4cf8-82e0-cfbf801ba352",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "global.game_score",
-            "varType": 1
-        },
-        {
-            "id": "559ce1e8-459d-46ee-8232-f5d2a57b0c30",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "global.target_score",
-            "varType": 0
-        },
-        {
-            "id": "50397ffe-8e32-4d3f-93c3-cfe1a6979ca0",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "global.current_high_score",
-            "varType": 0
         }
     ],
     "solid": false,

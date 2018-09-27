@@ -49,8 +49,8 @@ OBJECTS
 		DONE obj_Enemy 
 		
 	Splitsfont/
-		obj_Splitsfont_Tweaker
-		obj_Splitsfont_String
+		DONE obj_Splitsfont_Tweaker
+		DONE obj_Splitsfont_String
 		
 ROOMS
 	DONE r_InitRoom

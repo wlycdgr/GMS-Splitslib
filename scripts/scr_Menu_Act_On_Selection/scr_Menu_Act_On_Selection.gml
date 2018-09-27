@@ -45,6 +45,10 @@ case "PLAY":
 	with (global.main_menu_controller) {
 		main_menu.active = false;
 	}
+	
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Gameplay;
+	
 	break;
 	
 case "PLAY AGAIN":

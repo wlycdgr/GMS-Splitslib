@@ -18,15 +18,7 @@ case 0: //	INSTRUCTIONS screen
 		screen_counter = 0;
 		screen_index = 1;
 	}
-		
-	else {
-		for (var i = 0; i < qweiop_length; i++) {
-			qweiop_string_x_positions[i] = 
-				qweiop_string_x_path.value +
-				qweiop_string_x_offsets[i];
-		}
-	}
-		
+
 	break;
 		
 case 1: // EXCELLENT WORK screen

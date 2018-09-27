@@ -1,5 +1,5 @@
 /// @description Animate logo
-for (var i = 0; i < slide_strings_len[slide_index]; i++) {
+for (var i = 0; i < string_counts[slide_index]; i++) {
 	scr_Splitsfont_Rotate_String(slides[slide_index, i]);
 }
 

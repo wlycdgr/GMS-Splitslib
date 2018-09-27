@@ -1,5 +1,5 @@
 /// @description Begin twitch	
-target_size = t_size + random_range(twitch_minScaleUp, twitch_maxScaleUp);
+target_size = title1_size + random_range(twitch_minScaleUp, twitch_maxScaleUp);
 
 twitch_up_per_frame = (target_size - title1_size) * random_range(twitch_minPropTwitchPerFrame, twitch_maxPropTwitchPerFrame);
 twitch_down_per_frame = twitch_up_per_frame * twitch_twitchDownPerFrameMult;

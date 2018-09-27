@@ -18,7 +18,7 @@ for (var i = 0; i < ssa_len; i++) {
 	for (var j = 0; j < ss_len; j++) {
 		new_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 		
-		scr_Splitsfont_Set_Text(new_string, slide_strings[j]);
+		scr_Splitsfont_Set_Text(new_string, ss[j]);
 		
 		var twa = (1 == i) ? tweak_values_1 : tweak_values;
 		scr_Splitsfont_Set_Size(new_string, twa[j, 0]);

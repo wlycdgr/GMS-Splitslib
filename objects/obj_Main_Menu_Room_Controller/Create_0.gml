@@ -46,7 +46,7 @@ title1_y = 0.19 * window_height;
 title2 = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(title2, title2_text);
 scr_Splitsfont_Set_Tweaks(title2, [title2_size, title2_weight, title2_kern, title2_rotationSpeed, title2_angle]);
-title2_x  = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
+title2_x  = window_x_center - scr_Splitsfont_Get_Width(title2) / 2;
 title2_y = 0.44 * window_height;
 
 
