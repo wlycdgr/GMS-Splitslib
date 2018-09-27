@@ -362,7 +362,7 @@
             "Key": "45cc41eb-e6ad-4495-b1fc-cec240782e8e",
             "Value": {
                 "id": "13be412d-b648-44a1-a5f5-af4b59f47bc5",
-                "resourcePath": "fonts\\arial_8pt\\arial_8pt.yy",
+                "resourcePath": "fonts\\font_debug\\font_debug.yy",
                 "resourceType": "GMFont"
             }
         },

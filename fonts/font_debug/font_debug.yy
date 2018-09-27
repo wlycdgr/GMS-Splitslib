@@ -2,7 +2,7 @@
     "id": "45cc41eb-e6ad-4495-b1fc-cec240782e8e",
     "modelName": "GMFont",
     "mvc": "1.0",
-    "name": "arial_8pt",
+    "name": "font_debug",
     "AntiAlias": 1,
     "TTFName": "",
     "bold": false,
