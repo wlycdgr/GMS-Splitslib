@@ -5,7 +5,7 @@ with(argument0) {
 		if (!high_score_tweened) { 
 			high_score_tweened = true;
 			
-			scr_Play_SFX(snd_fx_AchieveHighScore);
+			scr_Play_SFX(snd_fx_TriumphantRill);
 		
 			var number_string = 0;
 			for (var i = 0; i < 10; i++) {

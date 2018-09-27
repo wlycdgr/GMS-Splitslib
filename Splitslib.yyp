@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "4645e737-fc1f-42e6-bb5f-fdf4876b3e95",
-            "Value": {
-                "id": "2ed83e0b-25b3-45db-977e-793d73b6b570",
-                "resourcePath": "views\\4645e737-fc1f-42e6-bb5f-fdf4876b3e95.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "48d00461-0cae-4d48-8a64-3087f48f5421",
             "Value": {
                 "id": "b7264df5-012f-4cf5-b7e9-6b0b3ff7ac48",
@@ -687,14 +679,6 @@
             }
         },
         {
-            "Key": "a42faca6-7d96-4868-b0cb-464449307b68",
-            "Value": {
-                "id": "38107c7d-4b0a-4f06-95de-487268e460e3",
-                "resourcePath": "scripts\\scr_Multiplier_Bar_NEW\\scr_Multiplier_Bar_NEW.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a43486dc-bd3f-4e97-9e9d-c2818d636d5e",
             "Value": {
                 "id": "c40ee7e3-0317-45f3-a2aa-357d9c95c072",
@@ -732,14 +716,6 @@
                 "id": "f1da0d50-d253-4ab9-92e5-025acdbb78d7",
                 "resourcePath": "views\\a8881f60-d11b-45a5-9350-b8417beb40fc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a8d72100-f4c7-4052-83e3-6d3d4254db57",
-            "Value": {
-                "id": "f1f03efe-5bdc-4d77-9501-b0344a960cd4",
-                "resourcePath": "scripts\\scr_MultiplierBar_DrawMultiplier\\scr_MultiplierBar_DrawMultiplier.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -839,14 +815,6 @@
             }
         },
         {
-            "Key": "babadea1-cadd-46af-9761-b2a9227feea0",
-            "Value": {
-                "id": "c6914a26-36bf-4816-a753-60c9000182ca",
-                "resourcePath": "scripts\\scr_Scoreboard_Handle_Score_Hitting_Targets\\scr_Scoreboard_Handle_Score_Hitting_Targets.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "bbe37cb4-12bb-4ff5-9e13-a6308dde3f93",
             "Value": {
                 "id": "fce3a91d-34a2-4819-8c89-4301f48a818a",
@@ -900,14 +868,6 @@
                 "id": "7ac8e4a8-6422-46dd-9caf-7a0cfc739a99",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cd4b2291-610a-44e8-884c-10ef5083ff89",
-            "Value": {
-                "id": "dab65e6f-465c-46f0-8ea6-91f3882d6f50",
-                "resourcePath": "scripts\\scr_Main_Menu_Room_Controller_HandleMenus\\scr_Main_Menu_Room_Controller_HandleMenus.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -970,7 +930,7 @@
             "Key": "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
             "Value": {
                 "id": "692c31c0-312d-46eb-a746-efb7996b58a9",
-                "resourcePath": "scripts\\scr_Steam_UpdateLifetimeCoolPointsLeaderboard\\scr_Steam_UpdateLifetimeCoolPointsLeaderboard.yy",
+                "resourcePath": "scripts\\scr_Steam_AddToCumulativeStat\\scr_Steam_AddToCumulativeStat.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -980,14 +940,6 @@
                 "id": "d6f6e0bd-04e9-4e2c-937f-c3430c53c74f",
                 "resourcePath": "objects\\obj_Credits_Room_Controller\\obj_Credits_Room_Controller.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
-            "Value": {
-                "id": "530142c2-3d56-4433-99e0-4ca6c1724efe",
-                "resourcePath": "scripts\\scr_Steam_PossiblyUnlockNoPressure\\scr_Steam_PossiblyUnlockNoPressure.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1004,6 +956,14 @@
                 "id": "86311a16-40e4-473a-949c-9328abd1f0b6",
                 "resourcePath": "views\\dd4a171a-5367-4700-bc47-92bc67fed2b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dd60339c-2ea9-48f6-b11a-c9d4616abe60",
+            "Value": {
+                "id": "03ce1e6b-2766-4384-a535-794b21c2817c",
+                "resourcePath": "scripts\\scr_Steam_UpdateCumulativeLeaderboard\\scr_Steam_UpdateCumulativeLeaderboard.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1141,17 +1101,13 @@
         "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6",
         "5013329f-d97f-4507-8121-a9d3d661f65d",
         "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
-        "babadea1-cadd-46af-9761-b2a9227feea0",
         "b45fdfe2-6862-4ba1-be3a-bff263610936",
-        "a42faca6-7d96-4868-b0cb-464449307b68",
-        "a8d72100-f4c7-4052-83e3-6d3d4254db57",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
+        "dd60339c-2ea9-48f6-b11a-c9d4616abe60",
         "7370bada-7319-4de4-a8f5-9ecf592f4580",
-        "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
-        "cd4b2291-610a-44e8-884c-10ef5083ff89",
         "aba5c1fe-9257-45a5-940d-c0017f082c6a",
         "a8eb4c29-8f03-43fb-adf9-502cda5524b3"
     ],
