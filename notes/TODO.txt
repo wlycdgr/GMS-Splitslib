@@ -25,8 +25,7 @@ OBJECTS
 		
 	UI/
 		obj_Menu
-		Scoreboards/
-			obj_Scoreboard_ROOT
+		obj_Scoreboard
 		Sliding_Ribbons/
 			obj_Game_Over_Menu_Sliding_Ribbon
 			obj_Sliding_Ribbon
@@ -55,6 +54,15 @@ OBJECTS
 		
 	Input
 		obj_Input_Tracker
+		
+ROOMS
+	DONE r_InitRoom
+	DONE r_GameMakerAndRaylibLogos
+	DONE r_MyLogo
+	DONE r_MainMenu
+	r_Gameplay
+	r_Credits
+	r_Tutorial
 
 
 

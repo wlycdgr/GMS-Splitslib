@@ -1,0 +1,1 @@
+instance_create_layer(obj_MyLogo_Room_Controller);

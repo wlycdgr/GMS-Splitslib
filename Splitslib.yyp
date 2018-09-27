@@ -82,7 +82,7 @@
             "Key": "0b353c8c-3599-4f20-a275-4f7d611c7cb1",
             "Value": {
                 "id": "e0c33be4-5bbd-4cf7-9b11-a4f651492757",
-                "resourcePath": "objects\\obj_Scoreboard_ROOT\\obj_Scoreboard_ROOT.yy",
+                "resourcePath": "objects\\obj_Scoreboard\\obj_Scoreboard.yy",
                 "resourceType": "GMObject"
             }
         },
