@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
-            "Value": {
-                "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
-                "resourcePath": "views\\1c394201-cc72-4632-9b86-790c3a40e4c3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1ce41f39-7174-460b-8ead-63ae3f4e00b1",
             "Value": {
                 "id": "65b0d7e6-54ed-46e5-b2a4-7c98e9f95219",
@@ -903,14 +895,6 @@
             }
         },
         {
-            "Key": "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-            "Value": {
-                "id": "c94351f8-d802-406a-8c80-fd67ccf4c8a1",
-                "resourcePath": "scripts\\scr_Focus_Playfield\\scr_Focus_Playfield.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "7ac8e4a8-6422-46dd-9caf-7a0cfc739a99",
@@ -1128,7 +1112,6 @@
         }
     ],
     "script_order": [
-        "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "22e4d577-b237-4333-83a3-20be936c6b35",
         "aaea3948-1f81-4286-a86f-1a371c318eb3",
         "f177824f-0638-4d45-9144-c01e36e8bafb",
