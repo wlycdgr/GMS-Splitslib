@@ -3,44 +3,18 @@ WHAT MUST BE UPDATED / REMOVED TO MAKE THIS TEMPLATE GENERIC
 OBJECTS
 	DONE obj_Escaper
 	
-	Entities/
-		obj_Energy
-		obj_Entity
-		obj_Enemy
-		DONE, REMOVED obj_CloseShave
-		
-	EntityGenerators/
-		obj_Entity_Generator
-		obj_Energy_Generator
-		obj_Enemy_Generator
-	Gameplay/
-		DONE, REMOVED obj_Funny_Finger
-
-		obj_Input_Tracker
-		DONE, REMOVED obj_Danger_Danger
-		DONE, REMOVED obj_Multiplier_Bar
-		
-
-		
-
-			
-
-
-	
 	Persistent/
 		Audio/
 			DONE obj_SoundManager
 		Settings/
 			DONE obj_Game_Settings
 		StateMachine/
-			obj_Room_State_Tracker
+			DONE obj_Room_State_Tracker
 		Steam/
 			DONE obj_Steam_Liason
-		UI/
-			Splitsfont/
-				obj_Splitsfont
-
-		
+		Splitsfont/
+			obj_Splitsfont
+			
 	Controllers/
 		DONE obj_InitRoom_Room_Controller
 		DONE obj_GameMaker_And_Raylib_Logos_Room_Controller
@@ -52,26 +26,47 @@ OBJECTS
 		
 	UI/
 		obj_Menu
-		Input/
-			obj_Input_Tracker
 		Scoreboards/
-			DONE, REMOVED obj_Scoreboard_Cool
 			obj_Scoreboard_ROOT
-			DONE, REMOVED obj_Scoreboard_Easy
-			DONE, REMOVED obj_Scoreboard_Medium
-			DONE, REMOVED obj_Scoreboard_Hard
-			DONE, REMOVED obj_Scoreboard_Difficult
-		Splitsfont/
-			obj_Splitsfont_String
 		Sliding_Ribbons/
 			obj_Game_Over_Menu_Sliding_Ribbon
 			obj_Sliding_Ribbon
 			obj_Paused_Sliding_Ribbon
-			DONE, REMOVED obj_Level99_Unlock_Message_Sliding_Ribbon
-		
+			
 	Animation/
 		obj_SlidePath
 		obj_SlideTween
+			
+	Input/
+		obj_Input_Tracker
+		
+	EntityGenerators/
+		obj_Entity_Generator
+		obj_Energy_Generator
+		obj_Enemy_Generator
+		
+	Entities/
+		obj_Energy
+		obj_Entity
+		obj_Enemy 
+		
+	Splitsfont/
+		obj_Splitsfont_Tweaker
+		obj_Splitsfont_String
+		
+	Input
+		obj_Input_Tracker
+
+
+
+	
+
+		
+
+		
+
+		
+
 		
 
 		
