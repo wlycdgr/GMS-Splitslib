@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0267bcb5-29c4-4e95-a6ca-c592be3f1b62",
+            "Value": {
+                "id": "37530e6b-c334-45fc-86dd-05a9c801e778",
+                "resourcePath": "objects\\obj_Scoreboard\\obj_Scoreboard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "082e56eb-0501-42ad-9459-00bb0e0d785c",
             "Value": {
                 "id": "5c6a4de1-761d-4618-b813-308fc07cf4fe",
@@ -67,14 +75,6 @@
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
                 "resourcePath": "objects\\obj_Gameplay_Room_Controller\\obj_Gameplay_Room_Controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0b353c8c-3599-4f20-a275-4f7d611c7cb1",
-            "Value": {
-                "id": "e0c33be4-5bbd-4cf7-9b11-a4f651492757",
-                "resourcePath": "objects\\obj_Scoreboard\\obj_Scoreboard.yy",
                 "resourceType": "GMObject"
             }
         },
