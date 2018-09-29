@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0aaa8a72-0ebe-47ca-92fe-37cf0985e2bf",
-            "Value": {
-                "id": "f1554828-812f-4596-8808-c366b949b287",
-                "resourcePath": "objects\\obj_Tutorial_Room_Controller\\obj_Tutorial_Room_Controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
@@ -148,6 +140,14 @@
                 "id": "b971b62e-8182-426e-94dc-8046e23fc21a",
                 "resourcePath": "views\\1d99ddca-f713-4396-8981-74adb0c3e722.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1dbbb9c1-7f67-4c21-bb49-f339e9568c15",
+            "Value": {
+                "id": "a48de1d0-3396-488f-a66f-4538f29b1f43",
+                "resourcePath": "objects\\obj_Tutorial_Room_Controller\\obj_Tutorial_Room_Controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -299,6 +299,14 @@
             "Value": {
                 "id": "3407c8f7-6175-48c6-9bbd-030cf81a79c5",
                 "resourcePath": "objects\\obj_Entity_Generator\\obj_Entity_Generator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3e7a42be-8c44-436d-ab55-42e3afb4fecd",
+            "Value": {
+                "id": "70c850d5-5320-47d9-b51c-4e1fb13d72b1",
+                "resourcePath": "objects\\obj_Main_Menu_Room_Controller\\obj_Main_Menu_Room_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -643,14 +651,6 @@
             "Value": {
                 "id": "2786eba1-8cf6-4a95-b0c7-3dc753b8c7f2",
                 "resourcePath": "objects\\obj_SlideTween\\obj_SlideTween.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a16aced3-abaf-4620-94f7-1fe1df8f03df",
-            "Value": {
-                "id": "fb3160df-c7d3-4f48-bf11-49454395ac1f",
-                "resourcePath": "objects\\obj_Main_Menu_Room_Controller\\obj_Main_Menu_Room_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
