@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "167f2cc5-cad7-4c09-ba90-7350cc2b65b5",
-            "Value": {
-                "id": "3799495e-94b8-4225-b4f8-0c07ffedc7b3",
-                "resourcePath": "objects\\obj_MyLogo_Room_Controller\\obj_MyLogo_Room_Controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "17cc19c2-581b-40e2-a60d-f5c7951ad7eb",
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
@@ -743,14 +735,6 @@
             }
         },
         {
-            "Key": "b3b816bd-fc25-4062-8ca6-442ef6750958",
-            "Value": {
-                "id": "9c72c8d3-6106-4a60-ba22-60a4508278c8",
-                "resourcePath": "objects\\obj_GameMaker_And_Raylib_Logos_Room_Controller\\obj_GameMaker_And_Raylib_Logos_Room_Controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b51e727b-5c33-4fcd-aaf2-5b4b653315a3",
             "Value": {
                 "id": "2877cf5d-36ae-43bf-a2ff-5a9605013e56",
@@ -892,14 +876,6 @@
                 "id": "692c31c0-312d-46eb-a746-efb7996b58a9",
                 "resourcePath": "scripts\\scr_Steam_AddToCumulativeStat\\scr_Steam_AddToCumulativeStat.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "dae4b901-97b9-461a-907c-db4f3f02a975",
-            "Value": {
-                "id": "d6f6e0bd-04e9-4e2c-937f-c3430c53c74f",
-                "resourcePath": "objects\\obj_Credits_Room_Controller\\obj_Credits_Room_Controller.yy",
-                "resourceType": "GMObject"
             }
         },
         {
