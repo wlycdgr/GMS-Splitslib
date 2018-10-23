@@ -1,6 +1,6 @@
 /// @description Init
-entity_pool_size = 10; // TODO figure out how many I actually need
-entities = array_create(entity_pool_size); // TODO figure out how many I actually need
+entity_pool_size = 10; // Adjust up or down for game requirements
+entities = array_create(entity_pool_size);
 
 counter_in_sec = 0;
 minimum_period_in_sec = 0;
