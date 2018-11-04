@@ -8,6 +8,7 @@
 // Misc Util
 #macro degrees_to_rad (pi / 180)
 #macro not_set -12345
+#macro whatever not_set
 #macro above_window -1000
 #macro left_of_window -1000
 // /Misc Util
