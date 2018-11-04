@@ -8,4 +8,10 @@ if (gs_playing == global.game.state) {
 		current_high_score = points;
 		highscore_add("Bananas Foster", points);
 	}
+	
+	score_string = string(floor(points));
+	score_string_len = string_length(score_string);
+	
+	high_score_string = string(floor(current_high_score));
+	high_score_string_len = string_length(high_score_string);
 }
