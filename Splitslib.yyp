@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "9728c36f-25a6-41c5-ae09-1c8219d7cace",
+            "Value": {
+                "id": "a1911409-eb91-44ed-b484-7aeb1a2b243f",
+                "resourcePath": "objects\\obj_Rectangle\\obj_Rectangle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a43486dc-bd3f-4e97-9e9d-c2818d636d5e",
             "Value": {
                 "id": "c40ee7e3-0317-45f3-a2aa-357d9c95c072",
