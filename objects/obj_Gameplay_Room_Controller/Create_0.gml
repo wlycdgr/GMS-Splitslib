@@ -10,6 +10,8 @@ paused_sliding_ribbon = instance_create_layer(
 	window_width, sliding_ribbon_y, "SlidingRibbons", obj_Paused_Sliding_Ribbon
 );
 
+part_particles_clear(global.particleSystem);
+
 // So we can pause the game if the Steam overlay
 // has just been deactivated
 steam_overlay_activated_this_step = false;

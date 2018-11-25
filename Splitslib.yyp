@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "d5c908aa-cc2c-46d1-bccc-0f1df69079a5",
+            "Value": {
+                "id": "3dd73d9a-56f7-440d-8079-4dbe3e47dac1",
+                "resourcePath": "scripts\\scr_ParticleSystem_Create\\scr_ParticleSystem_Create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d8076b83-d367-4521-b194-e51333d92c9f",
             "Value": {
                 "id": "d1f382ef-a166-4943-a3ae-0bcb1a5c921b",
@@ -1019,7 +1027,8 @@
         "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
         "dd60339c-2ea9-48f6-b11a-c9d4616abe60",
         "7370bada-7319-4de4-a8f5-9ecf592f4580",
-        "a8eb4c29-8f03-43fb-adf9-502cda5524b3"
+        "a8eb4c29-8f03-43fb-adf9-502cda5524b3",
+        "d5c908aa-cc2c-46d1-bccc-0f1df69079a5"
     ],
     "tutorial": ""
 }

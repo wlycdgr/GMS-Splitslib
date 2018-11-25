@@ -20,4 +20,6 @@ global.escaper = instance_create_layer(0, 0, "Instances", obj_Escaper);
 global.game_settings = instance_create_layer(0, 0, "Instances", obj_Game_Settings);
 global.room_state_tracker = instance_create_layer(0, 0, "Instances", obj_Room_State_Tracker);
 
+scr_ParticleSystem_Create();
+
 room_goto(r_MainMenu);
